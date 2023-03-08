@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "easy-soap-request": "^5.2.0",
+    "jsontoxml": "^1.0.1",
     "next": "13.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "soap": "^1.0.0",
+    "xml2js": "^0.4.23"
   }
 }
