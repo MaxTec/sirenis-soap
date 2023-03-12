@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-}
+  // hould help to find accidental side effects in the render phase. Set to True to use it
+  reactStrictMode: false,
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
